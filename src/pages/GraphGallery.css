@@ -1,0 +1,43 @@
+.graph-gallery {
+  text-align: center;
+  margin: 20px;
+}
+
+.graph-gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; 
+}
+
+.graph-item {
+  flex: 1;
+}
+
+.graph-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; 
+}
+
+.graph-caption {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.gallery-navigation {
+  margin-top: 10px;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #f0f0f0;
+}

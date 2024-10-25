@@ -1,0 +1,114 @@
+.introduction-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .parallax-background {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+    object-fit: cover;
+    position: absolute;
+  }
+  
+  .text-frame {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .art-image {
+    width: 98%;
+    border-radius: 8px;
+    margin: 10px;
+  }
+  
+  .expand-button {
+    background-color: #080807;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .expand-button:hover {
+    background-color: #333;
+  }
+  
+  .learn-more-button {
+    background-color: #080807;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #333;
+  }
+  
+  .colour-name {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center; 
+  }
+
+  .finding-item {
+    display: flex;
+    align-items: flex-start; 
+  }
+  
+  .finding-number {
+    font-size: 100px; 
+    font-weight: bold;
+    color: #00796b; 
+    margin-right: 20px;
+    line-height: 3; 
+  }
+
+  .questionnaire-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+  }
+  
+  .questionnaire-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .pdf-iframe {
+    width: 80%;
+    height: 600px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  
